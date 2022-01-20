@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* estiliza o h1 */
+h1 {
+    font-size: 24px;
+    color: #444;
+    margin: 10px 0 20px;
+}
+
+#res {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+
+#res p {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+
+/* estiliza o input text */
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+/* estiliza o input submit */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 20%;
+}
+
+/* estiliza os h4 */
+h4 {
+    font-size: 18px;
+    color: #444;
+    margin: 10px 0 20px;
+}
